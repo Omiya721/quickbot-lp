@@ -1,0 +1,34 @@
+
+//カラーパレット
+$color-bg-white: #ffffff;
+$color-bg-gray:  #F5F5F5;
+
+$color-text-main:  #111111;
+$color-text-sub:   #666666;
+$color-text-white: #ffffff;
+
+$color-accent: #1E3A8A;
+
+//共通部分ここから
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Noto Sans JP", sans-serif;
+    color: $color-text-main;
+    background-color: $color-bg-white;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
