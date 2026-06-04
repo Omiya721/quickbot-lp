@@ -76,7 +76,7 @@ html {
 }
 
 body {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: "Noto Sans JP", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   color: #111111;
   background-color: #ffffff;
   line-height: 1.7;
