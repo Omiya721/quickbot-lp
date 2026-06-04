@@ -1,0 +1,51 @@
+@use "../foundation/base" as *;
+
+.hero {
+    background-color: $color-bg-gray;
+    padding-top: 160px;
+
+    &__inner {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 40px;
+    }
+
+    &__image {
+        flex: 1;
+        max-width: 500px;
+        
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    }
+
+    &__body {
+        flex: 1;
+        text-align: center;
+    }
+
+    &__title {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 1.5;
+        color: $color-text-main;
+        margin-bottom: 24px;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 1.8;
+        color: $color-text-main;
+        margin-bottom: 40px;
+    }
+
+    &__cta {
+        margin-bottom: 40px;
+    }
+}

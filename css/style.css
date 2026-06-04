@@ -130,14 +130,57 @@ a {
   align-items: center;
 }
 
+.hero {
+  background-color: #F5F5F5;
+  padding-top: 160px;
+}
+.hero__inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.hero__image {
+  flex: 1;
+  max-width: 500px;
+}
+.hero__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.hero__body {
+  flex: 1;
+  text-align: center;
+}
+.hero__title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #111111;
+  margin-bottom: 24px;
+}
+.hero__text {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #111111;
+  margin-bottom: 40px;
+}
+.hero__cta {
+  margin-bottom: 40px;
+}
+
 .c-btn {
   display: inline-block;
   background-color: #000000;
   color: #ffffff;
   font-weight: 700;
-  font-size: 16px;
-  padding: 15px 30px;
-  border-radius: 8px;
+  font-size: 20px;
+  padding: 16px 38px;
+  border-radius: 4px;
   text-align: center;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s, transform 0.2s;
