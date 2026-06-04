@@ -383,7 +383,70 @@
             </section>
 
             <!--お問い合わせフォーム ここから-->
-            <section class="contact"></section>
+            <section class="contact">
+
+                <div class="contact__inner">
+                    <h2 class="contact__title">お問い合わせ</h2>
+
+                    <form action="#" method="POST" class="contact__form">
+
+                        <div class="contact__fields">
+                            <label for="company" class="contact__label">貴社名</label>
+                            <input type="text" id="company" name="company" class="contact__input" placeholder="貴社名を入力してください">
+                        </div>
+
+                        <div class="contact__fields">
+                            <label for="name" class="contact__label">担当者名</label>
+                            <input type="text" id="name" name="name" class="contact__input" placeholder="担当者名を入力してください">
+                        </div>
+
+                        <div class="contact__fields">
+                            <div class="contact__label-row">
+                                <label for="tel" class="contact__label">電話番号</label>
+                                <span class="contact__label-note">ハイフンなし</span>
+                            </div>
+                            <input type="tel" id="tel" name="tel" class="contact__input" placeholder="電話番号を入力してください">
+                        </div>
+
+                        <div class="contact__fields">
+                            <label for="email" class="contact__label">メールアドレス</label>
+                            <input type="email" id="email" name="email" class="contact__input" placeholder="メールアドレスを入力してください">
+                        </div>
+
+                        <div class="contact__fields">
+                            <label for="purpose" class="contact__label">お問い合わせ内容</label>
+                            <div class="contact__select-wrapper">
+                                <select id="purpose" name="purpose" class="contact__select">
+                                    <option value="資料請求">資料請求のご相談</option>
+                                    <option value="サービスについてのご質問">サービスについてのご質問</option>
+                                    <option value="料金・プランについてのご相談">料金・プランについてのご相談</option>
+                                    <option value="無料トライアルについて">無料トライアルについて</option>
+                                    <option value="その他">その他</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="contact__fields">
+                            <label for="message" class="contact__label">詳しいお問い合わせ内容</label>
+                            <textarea id="message" name="message" class="contact__input contact__input--textarea" placeholder="ご質問やご相談がございましたら、自由にご記入ください。"></textarea>
+                        </div>
+
+                        <div class="contact__checkbox-wrapper">
+                            <label class="contact__checkbox-label">
+                                <input type="checkbox" name="agree" class="contact__checkbox" required>
+                                <span class="contact__checkbox-text">プライバシーポリシーに同意する</span>
+                            </label>
+                        </div>
+
+                        <div class="contact__submit-wrapper">
+                            <button type="submit" class="contact__btn">送信</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </section>
 
         </main>
 
