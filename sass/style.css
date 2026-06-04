@@ -51,9 +51,7 @@ select {
   background: transparent;
   background-image: none;
   box-shadow: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-       appearance: none;
+  appearance: none;
 }
 
 a {
@@ -71,5 +69,4 @@ a img:hover {
 
 * {
   box-sizing: border-box;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
