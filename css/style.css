@@ -51,9 +51,7 @@ select {
   background: transparent;
   background-image: none;
   box-shadow: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-       appearance: none;
+  appearance: none;
 }
 
 a {
@@ -72,4 +70,80 @@ a img:hover {
 * {
   box-sizing: border-box;
 }
-/*# sourceMappingURL=style.css.map */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans JP", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  color: #111111;
+  background-color: #ffffff;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.header {
+  background-color: #1E3A8A;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 20px 0;
+}
+.header__inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__nav-list {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+.header__logo-link {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  transition: opacity 0.3s;
+}
+.header__logo-link:hover {
+  opacity: 0.7;
+}
+.header__info {
+  display: flex;
+  align-items: center;
+}
+
+.c-btn {
+  display: inline-block;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.2s;
+}
+.c-btn:hover {
+  opacity: 0.8;
+  transform: translateY(2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}/*# sourceMappingURL=style.css.map */
