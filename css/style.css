@@ -111,16 +111,6 @@ a {
   margin-bottom: 80px;
   position: relative;
 }
-.cases__title::after {
-  content: "";
-  position: absolute;
-  bottom: -15px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 40px;
-  height: 4px;
-  background-color: #000;
-}
 @media (max-width: 768px) {
   .cases__title {
     font-size: 22px;
@@ -224,16 +214,6 @@ a {
   color: #111111;
   margin-bottom: 80px;
   position: relative;
-}
-.contact__title::after {
-  content: "";
-  position: absolute;
-  bottom: -15px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 40px;
-  height: 4px;
-  background-color: #000;
 }
 @media (max-width: 768px) {
   .contact__title {
@@ -391,16 +371,6 @@ a {
   margin-bottom: 80px;
   position: relative;
 }
-.faq__title::after {
-  content: "";
-  position: absolute;
-  bottom: -15px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 40px;
-  height: 4px;
-  background-color: #000;
-}
 @media (max-width: 768px) {
   .faq__title {
     font-size: 22px;
@@ -520,16 +490,6 @@ a {
   color: #111111;
   margin-bottom: 80px;
   position: relative;
-}
-.features__title::after {
-  content: "";
-  position: absolute;
-  bottom: -15px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 40px;
-  height: 4px;
-  background-color: #000;
 }
 @media (max-width: 768px) {
   .features__title {
@@ -779,16 +739,6 @@ a {
   margin-bottom: 80px;
   position: relative;
 }
-.problem__title::after {
-  content: "";
-  position: absolute;
-  bottom: -15px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 40px;
-  height: 4px;
-  background-color: #000;
-}
 @media (max-width: 768px) {
   .problem__title {
     font-size: 22px;
@@ -909,16 +859,6 @@ a {
   color: #111111;
   margin-bottom: 80px;
   position: relative;
-}
-.steps__title::after {
-  content: "";
-  position: absolute;
-  bottom: -15px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 40px;
-  height: 4px;
-  background-color: #000;
 }
 @media (max-width: 768px) {
   .steps__title {
@@ -1041,4 +981,33 @@ a {
     width: 100%;
     max-width: 280px;
   }
+}
+
+.c-section-title {
+  position: relative;
+  text-align: center;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 700;
+  color: #111111;
+  padding-bottom: 24px;
+  margin-bottom: 60px;
+}
+@media (max-width: 768px) {
+  .c-section-title {
+    margin-bottom: 40px;
+  }
+}
+.c-section-title__line {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 4px;
+  background-color: #666666;
+  transition: width 0.8s ease, background-color 0.8s ease;
+}
+.c-section-title.is-active .c-section-title__line {
+  width: 80px;
+  background-color: #1E3A8A;
 }/*# sourceMappingURL=style.css.map */
