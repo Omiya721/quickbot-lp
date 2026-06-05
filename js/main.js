@@ -1,6 +1,23 @@
 
 "use strict";
 
+//タイトル下の線
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            entry.target.classList.add('is-active');
+            observer.unobserve(entry.target);
+        }
+    });
+}, {
+    rootMargin: '0px 0px -10% 0px' 
+});
+
+document.querySelectorAll('.c-section-title').forEach(title => {
+    observer.observe(title);
+});
+
+
 //アコーディオン
 document.querySelectorAll('.js-faq').forEach(el => {
   const summary = el.querySelector('.faq__head');
