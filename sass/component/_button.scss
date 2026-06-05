@@ -17,4 +17,11 @@
         transform: translateY(2px);
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
+
+    @media (max-width: 768px) {
+        font-size: 16px;
+        padding: 14px 24px;
+        width: 100%;
+        max-width: 280px;
+    }
 }
