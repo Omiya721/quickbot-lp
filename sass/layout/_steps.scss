@@ -28,8 +28,18 @@
             background-color: $color-text-sub;
             z-index: 1;
 
+            transform-origin: top;
+            transform: scaleY(0);
+            transition: transform 3.0s cubic-bezier(0.4, 0, 0.2, 1);
+
             @media (max-width: 768px) {
                 display: none;
+            }
+        }
+
+        &.is-active {
+            &::before {
+                transform: scaleY(1); // ➔ 縦の長さを「1（100%）」に戻して伸ばしきる！
             }
         }
 

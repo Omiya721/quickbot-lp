@@ -23,6 +23,11 @@ document.querySelectorAll('.features__item').forEach(item => {
     observer.observe(item);
 });
 
+//ご利用の流れ
+document.querySelectorAll('.steps__list').forEach(list => {
+    observer.observe(list);
+});
+
 
 //アコーディオン
 document.querySelectorAll('.js-faq').forEach(el => {
