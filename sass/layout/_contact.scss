@@ -1,0 +1,193 @@
+@use "../foundation/base" as *;
+
+.contact {
+    background-color: $color-bg-white;
+    padding: 80px 0;
+    text-align: center;
+
+    &__inner {
+        max-width: 1280px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    &__title {
+        font-size: 28px;
+        font-weight: 700;
+        color: $color-text-main;
+        margin-bottom: 80px;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 4px;
+            background-color: #000;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 22px;
+        }
+    }
+
+    &__form {
+        max-width: 600px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+    &__fields {
+        margin-bottom: 24px;
+    }
+
+    &__label {
+        display: block;
+        font-size: 14px;
+        font-weight: 700;
+        color: $color-text-main;
+        margin-bottom: 8px;
+    }
+
+    &__label-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-bottom: 8px;
+
+        .contact__label {
+            margin-bottom: 0;
+        }
+    }
+
+    &__label-note {
+        font-size: 12px;
+        color: #777;
+    }
+
+    &__input {
+        width: 100%;
+        padding: 14px 16px;
+        font-size: 15px;
+        color: $color-text-main;
+        background-color: $color-bg-white;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+        &::placeholder {
+            color: #aaa;
+        }
+
+        &:focus {
+            outline: none;
+            border-color: #000;
+            box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+        }
+
+        &--textarea {
+            height: 150px;
+            resize: vertical;
+        }
+    }
+
+    &__select-wrapper {
+        position: relative;
+        width: 100%;
+
+        &::after {
+            content: "";
+            position: absolute;
+            right: 16px;
+            top: 50%;
+            transform: translateY(-70%) rotate(45deg);
+            width: 8px;
+            height: 8px;
+            border-right: 2px solid $color-text-main;
+            border-bottom: 2px solid $color-text-main;
+            pointer-events: none;
+        }
+    }
+
+    &__select {
+        width: 100%;
+        padding: 14px 40px 14px 16px;
+        font-size: 15px;
+        color: $color-text-main;
+        background-color: $color-bg-white;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        cursor: pointer;
+        
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+
+        &::-ms-expand {
+            display: none;
+        }
+
+        &:focus {
+            outline: none;
+            border-color: #000;
+        }
+    }
+
+    &__checkbox-wrapper {
+        margin: 40px 0 30px;
+        text-align: center;
+    }
+
+    &__checkbox-label {
+        display: inline-flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+
+    &__checkbox {
+        width: 18px;
+        height: 18px;
+        accent-color: #000;
+        cursor: pointer;
+    }
+
+    &__checkbox-text {
+        font-size: 14px;
+        font-weight: 500;
+        color: $color-text-main;
+    }
+
+    &__submit-wrapper {
+        text-align: center;
+    }
+
+    &__btn {
+        display: inline-block;
+        width: 100%;
+        max-width: 300px;
+        padding: 16px 0;
+        font-size: 16px;
+        font-weight: 700;
+        color: $color-text-white;
+        background-color: $color-btn-black;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+
+        &:hover {
+            background-color: #333;
+        }
+
+        &:active {
+            transform: scale(0.98);
+        }
+    }
+}
