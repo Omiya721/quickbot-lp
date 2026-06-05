@@ -7,7 +7,11 @@
     left: 0;
     width: 100%;
     z-index: 100;
-    padding: 20px 0;
+    padding: 16px 0;
+
+        @media (max-width: 768px) {
+            padding: 12px 0;
+        }
 
     &__inner {
         max-width: 1280px;
@@ -16,12 +20,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
-
-    &__nav-list {
-        display: flex;
-        gap: 30px;
-        list-style: none;
     }
 
     &__logo-link {
@@ -33,10 +31,30 @@
         &:hover {
             opacity: 0.7;
         }
+
+        @media (max-width: 768px) {
+            font-size: 20px;
+        }
     }
 
     &__info {
         display: flex;
         align-items: center;
+    }
+
+    &__btn.c-btn {
+        font-size: 14px;
+        padding: 10px 24px;
+        box-shadow: none;
+
+        &:hover {
+            transform: none; 
+        }
+
+        @media (max-width: 768px) {
+            max-width: none;
+            font-size: 12px;
+            padding: 8px 14px;
+        }
     }
 }
