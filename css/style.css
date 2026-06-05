@@ -104,18 +104,6 @@ a {
   margin: 0 auto;
   padding: 0 20px;
 }
-.cases__title {
-  font-size: 28px;
-  font-weight: 700;
-  color: #111111;
-  margin-bottom: 80px;
-  position: relative;
-}
-@media (max-width: 768px) {
-  .cases__title {
-    font-size: 22px;
-  }
-}
 .cases__list {
   display: flex;
   justify-content: space-between;
@@ -207,18 +195,6 @@ a {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 20px;
-}
-.contact__title {
-  font-size: 28px;
-  font-weight: 700;
-  color: #111111;
-  margin-bottom: 80px;
-  position: relative;
-}
-@media (max-width: 768px) {
-  .contact__title {
-    font-size: 22px;
-  }
 }
 .contact__form {
   max-width: 600px;
@@ -364,18 +340,6 @@ a {
   margin: 0 auto;
   padding: 0 20px;
 }
-.faq__title {
-  font-size: 28px;
-  font-weight: 700;
-  color: #111111;
-  margin-bottom: 80px;
-  position: relative;
-}
-@media (max-width: 768px) {
-  .faq__title {
-    font-size: 22px;
-  }
-}
 .faq__list {
   max-width: 840px;
   margin: 0 auto;
@@ -483,18 +447,6 @@ a {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 20px;
-}
-.features__title {
-  font-size: 28px;
-  font-weight: 700;
-  color: #111111;
-  margin-bottom: 80px;
-  position: relative;
-}
-@media (max-width: 768px) {
-  .features__title {
-    font-size: 22px;
-  }
 }
 .features__list {
   display: flex;
@@ -732,18 +684,6 @@ a {
   margin: 0 auto;
   padding: 0 20px;
 }
-.problem__title {
-  font-size: 28px;
-  font-weight: 700;
-  color: #111111;
-  margin-bottom: 80px;
-  position: relative;
-}
-@media (max-width: 768px) {
-  .problem__title {
-    font-size: 22px;
-  }
-}
 .problem__list {
   display: flex;
   justify-content: space-between;
@@ -852,19 +792,6 @@ a {
   max-width: 1280px;
   margin: 0 auto;
   padding: 0 20px;
-}
-.steps__title {
-  font-size: 28px;
-  font-weight: 700;
-  color: #111111;
-  margin-bottom: 80px;
-  position: relative;
-}
-@media (max-width: 768px) {
-  .steps__title {
-    font-size: 22px;
-    margin-bottom: 50px;
-  }
 }
 .steps__list {
   list-style: none;

@@ -11,19 +11,6 @@
         padding: 0 20px;
     }
 
-    &__title {
-        font-size: 28px;
-        font-weight: 700;
-        color: $color-text-main;
-        margin-bottom: 80px;
-        position: relative;
-
-        @media (max-width: 768px) {
-            font-size: 22px;
-            margin-bottom: 50px;
-        }
-    }
-
     &__list {
         list-style: none;
         padding: 0;
