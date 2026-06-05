@@ -1,0 +1,33 @@
+@use "../foundation/base" as *;
+
+.c-section-title {
+    position: relative;
+    text-align: center;
+    font-size: clamp(24px, 3vw, 32px);
+    font-weight: 700;
+    color: $color-text-main;
+    padding-bottom: 24px;
+    margin-bottom: 60px;
+
+    @media (max-width: 768px) {
+        margin-bottom: 40px;
+    }
+
+    &__line {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 4px;
+        background-color: $color-text-sub;
+        transition: width 0.8s ease, background-color 0.8s ease;
+    }
+
+    &.is-active {
+        .c-section-title__line {
+            width: 80px;
+            background-color: $color-accent;
+        }
+    }
+}
