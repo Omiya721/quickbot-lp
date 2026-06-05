@@ -208,6 +208,168 @@ a {
   }
 }
 
+.contact {
+  background-color: #ffffff;
+  padding: 80px 0;
+  text-align: center;
+}
+.contact__inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.contact__title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 80px;
+  position: relative;
+}
+.contact__title::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 4px;
+  background-color: #000;
+}
+@media (max-width: 768px) {
+  .contact__title {
+    font-size: 22px;
+  }
+}
+.contact__form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+.contact__fields {
+  margin-bottom: 24px;
+}
+.contact__label {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 8px;
+}
+.contact__label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 8px;
+}
+.contact__label-row .contact__label {
+  margin-bottom: 0;
+}
+.contact__label-note {
+  font-size: 12px;
+  color: #777;
+}
+.contact__input {
+  width: 100%;
+  padding: 14px 16px;
+  font-size: 15px;
+  color: #111111;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.contact__input::placeholder {
+  color: #aaa;
+}
+.contact__input:focus {
+  outline: none;
+  border-color: #000;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+}
+.contact__input--textarea {
+  height: 150px;
+  resize: vertical;
+}
+.contact__select-wrapper {
+  position: relative;
+  width: 100%;
+}
+.contact__select-wrapper::after {
+  content: "";
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-70%) rotate(45deg);
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid #111111;
+  border-bottom: 2px solid #111111;
+  pointer-events: none;
+}
+.contact__select {
+  width: 100%;
+  padding: 14px 40px 14px 16px;
+  font-size: 15px;
+  color: #111111;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  appearance: none;
+}
+.contact__select::-ms-expand {
+  display: none;
+}
+.contact__select:focus {
+  outline: none;
+  border-color: #000;
+}
+.contact__checkbox-wrapper {
+  margin: 40px 0 30px;
+  text-align: center;
+}
+.contact__checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  appearance: none;
+}
+.contact__checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: #000;
+  cursor: pointer;
+}
+.contact__checkbox-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #111111;
+}
+.contact__submit-wrapper {
+  text-align: center;
+}
+.contact__btn {
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  padding: 16px 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.contact__btn:hover {
+  background-color: #333;
+}
+.contact__btn:active {
+  transform: scale(0.98);
+}
+
 .faq {
   background-color: #F5F5F5;
   padding: 80px 0;
@@ -444,6 +606,11 @@ a {
 .features__cta-btn-wrapper {
   display: inline-block;
   margin: 0 auto;
+}
+
+.footer {
+  background-color: #1E3A8A;
+  height: 40px;
 }
 
 .header {
