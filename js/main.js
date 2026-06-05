@@ -1,7 +1,7 @@
 
 "use strict";
 
-//タイトル下の線
+//タイトル下の線、インビュー
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
@@ -13,8 +13,14 @@ const observer = new IntersectionObserver((entries) => {
     rootMargin: '0px 0px -10% 0px' 
 });
 
+//タイトル下の線
 document.querySelectorAll('.c-section-title').forEach(title => {
     observer.observe(title);
+});
+
+//インビュー
+document.querySelectorAll('.features__item').forEach(item => {
+    observer.observe(item);
 });
 
 
