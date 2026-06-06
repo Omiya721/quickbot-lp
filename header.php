@@ -21,7 +21,7 @@
 
                 <div class="header__info">
                     <!-- ボタン -->
-                    <a href="#" class="header__btn c-btn">お問い合わせ</a>
+                    <a href="#" class="header__btn c-btn"><?php echo get_theme_mod('header_btn_text', 'お問い合わせ'); ?></a>
                 </div>
             </div>
 
