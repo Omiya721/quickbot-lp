@@ -1,451 +1,451 @@
 
 <?php get_header(); ?>
 
-        <main>
+    <main>
 
-            <!--メインビジュアル　ここから-->
-            <section class="hero">
+        <!--メインビジュアル　ここから-->
+        <section class="hero">
 
-                <div class="hero__inner">
-                    <div class="hero__image">
-                        <img src="./img/hero-person.png" alt="チャットボットを利用するビジネスパーソン">
+            <div class="hero__inner">
+                <div class="hero__image">
+                    <img src="./img/hero-person.png" alt="チャットボットを利用するビジネスパーソン">
+                </div>
+
+                <div class="hero__body">
+                    <h2 class="hero__title">
+                        24時間AIが自動回答。<br>
+                        顧客を待たせない、次世代AIチャットボット
+                    </h2>
+
+                    <p class="hero__text">
+                        よくある質問への回答をAIが100%自動化。<br>
+                        カスタマーサポートの負担を減らし、深夜の機会損失を防ぐことで、<br>
+                        顧客満足度とコンバージョン率を同時に高めます。
+                    </p>
+
+                    <div class="hero__cta">
+                        <a href="#" class="hero__btn c-btn">無料で14日間試してみる</a>
                     </div>
+                </div>
+            </div>
 
-                    <div class="hero__body">
-                        <h2 class="hero__title">
-                            24時間AIが自動回答。<br>
-                            顧客を待たせない、次世代AIチャットボット
-                        </h2>
+        </section>
 
-                        <p class="hero__text">
-                            よくある質問への回答をAIが100%自動化。<br>
-                            カスタマーサポートの負担を減らし、深夜の機会損失を防ぐことで、<br>
-                            顧客満足度とコンバージョン率を同時に高めます。
+        <!--こんなお悩みありませんか？　ここから-->
+        <section class="problem">
+
+            <div class="problem__inner">
+
+                <h2 class="c-section-title">
+                    こんなお悩みありませんか？
+                    <span class="c-section-title__line"></span>
+                </h2>
+
+                <div class="problem__list">
+                    <article class="problem__item">
+                        <div class="problem__img-wrapper">
+                            <img src="./img/problem-01.jpg" alt="夜間対応に困るイメージ" class="problem__img">
+                        </div>
+                        <h3 class="problem__item-title">夜間や休日の対応ができない</h3>
+                        <p class="problem__item-text">
+                            夜間や休日の問い合わせに対応できず、せっかくの顧客を逃している…
                         </p>
+                    </article>
 
-                        <div class="hero__cta">
-                            <a href="#" class="hero__btn c-btn">無料で14日間試してみる</a>
+                    <article class="problem__item">
+                        <div class="problem__img-wrapper">
+                            <img src="./img/problem-02.jpg" alt="同じ質問の繰り返しに悩むイメージ" class="problem__img">
                         </div>
+                        <h3 class="problem__item-title">同じ質問ばかりで時間が溶ける</h3>
+                        <p class="problem__item-text">
+                            『パスワードを忘れた』など、同じ質問への回答ばかりで1日が終わる…
+                        </p>
+                    </article>
+
+                    <article class="problem__item">
+                        <div class="problem__img-wrapper">
+                            <img src="./img/problem-03.jpg" alt="人手不足で待たせるイメージ" class="problem__img">
+                        </div>
+                        <h3 class="problem__item-title">人手不足で顧客を待たせる</h3>
+                        <p class="problem__item-text">
+                            サポートスタッフの人手不足で、返信までに数時間待たせてしまう…
+                        </p>
+                    </article>
+                </div>
+
+                <div class="problem__solution">
+                    <h3 class="problem__solution-title">
+                        QuickBot.で<br>
+                        サポート業務の自動化と顧客満足度アップをはじめられます！
+                    </h3>
+
+                    <div class="problem__solution-img-wrapper">
+                        <img src="./img/solution-dashboard.jpg" alt="QuickBotのイメージ" class="problem__solution-img">
+                    </div>
+
+                    <div class="problem__solution-cta">
+                        <a href="#" class="problem__solution-btn c-btn">無料で14日間試してみる</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--特徴・強み（選ばれる理由） ここから-->
+        <section class="features">
+
+            <div class="features__inner">
+                <h2 class="c-section-title">
+                    特徴
+                    <span class="c-section-title__line"></span>
+                </h2>
+
+                <div class="features__list">
+
+                    <article class="features__item">
+                        <div class="features__icon-wrapper">
+                            <img src="./img/icon-url.svg" alt="設定はURLを貼るだけ" class="features__icon">
+                        </div>
+                        <h3 class="features__item-title">設定はURLを貼るだけ</h3>
+                        <p class="features__item-text">
+                            自社のホームページやマニュアルのURLを読み込ませるだけで、AIが自動で学習します。面倒なシナリオ作成は一切不要で、今日からすぐに稼働できます。
+                        </p>
+                    </article>
+
+                    <article class="features__item">
+                        <div class="features__icon-wrapper">
+                            <img src="./img/icon-support.svg" alt="人間へスムーズに引き継ぎ" class="features__icon">
+                        </div>
+                        <h3 class="features__item-title">人間へスムーズに引き継ぎ</h3>
+                        <p class="features__item-text">
+                            AIでは回答が難しい複雑な質問は、ワンクリックで人間のオペレーターへチャットを引き継ぎ。顧客にストレスを与えないハイブリッドな対応が可能です。
+                        </p>
+                    </article>
+
+                    <article class="features__item">
+                        <div class="features__icon-wrapper">
+                            <img src="./img/icon-tool.svg" alt="主要ツールと強力に連携" class="features__icon">
+                        </div>
+                        <h3 class="features__item-title">主要ツールと強力に連携</h3>
+                        <p class="features__item-text">
+                            LINE、Slack、Teamsなど、お使いのコミュニケーションツールと連携可能。いつもの使い慣れた画面から、顧客のチャットへ簡単に返信ができます。
+                        </p>
+                    </article>
+
+                </div>
+
+                <div class="features__cta">
+                    <h3 class="features__cta-title">
+                        詳しい特徴や価格についての<br>
+                        お問い合わせはこちらから
+                    </h3>
+                    <div class="features__cta-btn-wrapper">
+                        <a href="#" class="features__btn c-btn">お問い合わせ</a>
                     </div>
                 </div>
 
-            </section>
+            </div>
+        </section>
 
-            <!--こんなお悩みありませんか？　ここから-->
-            <section class="problem">
+        <!--導入事例 ここから-->
+        <section class="cases">
 
-                <div class="problem__inner">
+            <div class="cases__inner">
+                <h2 class="c-section-title">
+                    導入事例
+                    <span class="c-section-title__line"></span>
+                </h2>
 
-                    <h2 class="c-section-title">
-                        こんなお悩みありませんか？
-                        <span class="c-section-title__line"></span>
-                    </h2>
+                <div class="cases__list">
 
-                    <div class="problem__list">
-                        <article class="problem__item">
-                            <div class="problem__img-wrapper">
-                                <img src="./img/problem-01.jpg" alt="夜間対応に困るイメージ" class="problem__img">
-                            </div>
-                            <h3 class="problem__item-title">夜間や休日の対応ができない</h3>
-                            <p class="problem__item-text">
-                                夜間や休日の問い合わせに対応できず、せっかくの顧客を逃している…
-                            </p>
-                        </article>
-
-                        <article class="problem__item">
-                            <div class="problem__img-wrapper">
-                                <img src="./img/problem-02.jpg" alt="同じ質問の繰り返しに悩むイメージ" class="problem__img">
-                            </div>
-                            <h3 class="problem__item-title">同じ質問ばかりで時間が溶ける</h3>
-                            <p class="problem__item-text">
-                                『パスワードを忘れた』など、同じ質問への回答ばかりで1日が終わる…
-                            </p>
-                        </article>
-
-                        <article class="problem__item">
-                            <div class="problem__img-wrapper">
-                                <img src="./img/problem-03.jpg" alt="人手不足で待たせるイメージ" class="problem__img">
-                            </div>
-                            <h3 class="problem__item-title">人手不足で顧客を待たせる</h3>
-                            <p class="problem__item-text">
-                                サポートスタッフの人手不足で、返信までに数時間待たせてしまう…
-                            </p>
-                        </article>
-                    </div>
-
-                    <div class="problem__solution">
-                        <h3 class="problem__solution-title">
-                            QuickBot.で<br>
-                            サポート業務の自動化と顧客満足度アップをはじめられます！
+                    <article class="cases__item">
+                        <div class="cases__img-wrapper">
+                            <img src="./img/case-01.jpg" alt="株式会社ECコマース様の導入事例" class="cases__img">
+                        </div>
+                        <div class="cases__info">
+                            <p class="cases__company">株式会社ECコマース 様</p>
+                            <p class="cases__industry">（ECサイト運営）</p>
+                        </div>
+                        <h3 class="cases__item-title">
+                            深夜の問い合わせ自動応答率が92%に！<br>
+                            夜間の注文数が1.5倍に増加しました
                         </h3>
+                        <p class="cases__item-text">
+                            これまでは夜間や休日の問い合わせに対応できず、機会損失が発生していました。QuickBot.の導入後はAIが即座に自動回答してくれるため、ユーザーを待たせることなく夜間の購入完了率が劇的にアップしました。
+                        </p>
+                    </article>
 
-                        <div class="problem__solution-img-wrapper">
-                            <img src="./img/solution-dashboard.jpg" alt="QuickBotのイメージ" class="problem__solution-img">
+                    <article class="cases__item">
+                        <div class="cases__img-wrapper">
+                            <img src="./img/case-02.jpg" alt="スマートライフ株式会社様の導入事例" class="cases__img">
                         </div>
-
-                        <div class="problem__solution-cta">
-                            <a href="#" class="problem__solution-btn c-btn">無料で14日間試してみる</a>
+                        <div class="cases__info">
+                            <p class="cases__company">スマートライフ株式会社 様</p>
+                            <p class="cases__industry">（WEBメディア運営）</p>
                         </div>
-
-                    </div>
-
-                </div>
-
-            </section>
-
-            <!--特徴・強み（選ばれる理由） ここから-->
-            <section class="features">
-
-                <div class="features__inner">
-                    <h2 class="c-section-title">
-                        特徴
-                        <span class="c-section-title__line"></span>
-                    </h2>
-
-                    <div class="features__list">
-
-                        <article class="features__item">
-                            <div class="features__icon-wrapper">
-                                <img src="./img/icon-url.svg" alt="設定はURLを貼るだけ" class="features__icon">
-                            </div>
-                            <h3 class="features__item-title">設定はURLを貼るだけ</h3>
-                            <p class="features__item-text">
-                                自社のホームページやマニュアルのURLを読み込ませるだけで、AIが自動で学習します。面倒なシナリオ作成は一切不要で、今日からすぐに稼働できます。
-                            </p>
-                        </article>
-
-                        <article class="features__item">
-                            <div class="features__icon-wrapper">
-                                <img src="./img/icon-support.svg" alt="人間へスムーズに引き継ぎ" class="features__icon">
-                            </div>
-                            <h3 class="features__item-title">人間へスムーズに引き継ぎ</h3>
-                            <p class="features__item-text">
-                                AIでは回答が難しい複雑な質問は、ワンクリックで人間のオペレーターへチャットを引き継ぎ。顧客にストレスを与えないハイブリッドな対応が可能です。
-                            </p>
-                        </article>
-
-                        <article class="features__item">
-                            <div class="features__icon-wrapper">
-                                <img src="./img/icon-tool.svg" alt="主要ツールと強力に連携" class="features__icon">
-                            </div>
-                            <h3 class="features__item-title">主要ツールと強力に連携</h3>
-                            <p class="features__item-text">
-                                LINE、Slack、Teamsなど、お使いのコミュニケーションツールと連携可能。いつもの使い慣れた画面から、顧客のチャットへ簡単に返信ができます。
-                            </p>
-                        </article>
-
-                    </div>
-
-                    <div class="features__cta">
-                        <h3 class="features__cta-title">
-                            詳しい特徴や価格についての<br>
-                            お問い合わせはこちらから
+                        <h3 class="cases__item-title">
+                            「パスワードを忘れた」等の定型質問を100%自動化。サポートの負担が激減
                         </h3>
-                        <div class="features__cta-btn-wrapper">
-                            <a href="#" class="features__btn c-btn">お問い合わせ</a>
+                        <p class="cases__item-text">
+                            毎日何件も届く「ログインできない」「解約方法を知りたい」といった同じ質問への対応に追われていました。それらをすべてAIチャットに任せることで、スタッフがより重要な個別サポートに集中できるようになりました。
+                        </p>
+                    </article>
+
+                    <article class="cases__item">
+                        <div class="cases__img-wrapper">
+                            <img src="./img/case-03.jpg" alt="合同会社ネクストステップ様の導入事例" class="cases__img">
                         </div>
-                    </div>
-
-                </div>
-            </section>
-
-            <!--導入事例 ここから-->
-            <section class="cases">
-
-                <div class="cases__inner">
-                    <h2 class="c-section-title">
-                        導入事例
-                        <span class="c-section-title__line"></span>
-                    </h2>
-
-                    <div class="cases__list">
-
-                        <article class="cases__item">
-                            <div class="cases__img-wrapper">
-                                <img src="./img/case-01.jpg" alt="株式会社ECコマース様の導入事例" class="cases__img">
-                            </div>
-                            <div class="cases__info">
-                                <p class="cases__company">株式会社ECコマース 様</p>
-                                <p class="cases__industry">（ECサイト運営）</p>
-                            </div>
-                            <h3 class="cases__item-title">
-                                深夜の問い合わせ自動応答率が92%に！<br>
-                                夜間の注文数が1.5倍に増加しました
-                            </h3>
-                            <p class="cases__item-text">
-                                これまでは夜間や休日の問い合わせに対応できず、機会損失が発生していました。QuickBot.の導入後はAIが即座に自動回答してくれるため、ユーザーを待たせることなく夜間の購入完了率が劇的にアップしました。
-                            </p>
-                        </article>
-
-                        <article class="cases__item">
-                            <div class="cases__img-wrapper">
-                                <img src="./img/case-02.jpg" alt="スマートライフ株式会社様の導入事例" class="cases__img">
-                            </div>
-                            <div class="cases__info">
-                                <p class="cases__company">スマートライフ株式会社 様</p>
-                                <p class="cases__industry">（WEBメディア運営）</p>
-                            </div>
-                            <h3 class="cases__item-title">
-                                「パスワードを忘れた」等の定型質問を100%自動化。サポートの負担が激減
-                            </h3>
-                            <p class="cases__item-text">
-                                毎日何件も届く「ログインできない」「解約方法を知りたい」といった同じ質問への対応に追われていました。それらをすべてAIチャットに任せることで、スタッフがより重要な個別サポートに集中できるようになりました。
-                            </p>
-                        </article>
-
-                        <article class="cases__item">
-                            <div class="cases__img-wrapper">
-                                <img src="./img/case-03.jpg" alt="合同会社ネクストステップ様の導入事例" class="cases__img">
-                            </div>
-                            <div class="cases__info">
-                                <p class="cases__company">合同会社ネクストステップ 様</p>
-                                <p class="cases__industry">（Webサービス運営）</p>
-                            </div>
-                            <h3 class="cases__item-title">
-                                URLを読み込ませるだけで即日稼働！シナリオ作成の手間がなく驚きました
-                            </h3>
-                            <p class="cases__item-text">
-                                過去に別のチャットボットを検討した際は、複雑な分岐設定（シナリオ作成）に挫折しました。QuickBot.は自社のヘルプページのURLを貼るだけで一瞬で賢いAIが完成したため、導入コストがほぼゼロで済みました。
-                            </p>
-                        </article>
-
-                    </div>
-
-                    <div class="cases__cta">
-                        <h3 class="cases__cta-title">
-                            導入事例についての<br>
-                            資料請求はこちらから
+                        <div class="cases__info">
+                            <p class="cases__company">合同会社ネクストステップ 様</p>
+                            <p class="cases__industry">（Webサービス運営）</p>
+                        </div>
+                        <h3 class="cases__item-title">
+                            URLを読み込ませるだけで即日稼働！シナリオ作成の手間がなく驚きました
                         </h3>
-                        <div class="cases__cta-btn-wrapper">
-                            <a href="#" class="cases__btn c-btn">お問い合わせ</a>
-                        </div>
-                    </div>
+                        <p class="cases__item-text">
+                            過去に別のチャットボットを検討した際は、複雑な分岐設定（シナリオ作成）に挫折しました。QuickBot.は自社のヘルプページのURLを貼るだけで一瞬で賢いAIが完成したため、導入コストがほぼゼロで済みました。
+                        </p>
+                    </article>
 
                 </div>
 
-            </section>
+                <div class="cases__cta">
+                    <h3 class="cases__cta-title">
+                        導入事例についての<br>
+                        資料請求はこちらから
+                    </h3>
+                    <div class="cases__cta-btn-wrapper">
+                        <a href="#" class="cases__btn c-btn">お問い合わせ</a>
+                    </div>
+                </div>
 
-            <!--ご利用の流れ ここから-->
-            <section class="steps">
+            </div>
 
-                <div class="steps__inner">
-                    <h2 class="c-section-title">
-                        ご利用の流れ
-                        <span class="c-section-title__line"></span>
-                    </h2>
+        </section>
 
-                    <ul class="steps__list">
+        <!--ご利用の流れ ここから-->
+        <section class="steps">
 
-                        <li class="steps__item">
-                            <div class="steps__number-wrapper">
-                                <span class="steps__number">1</span>
-                            </div>
-                            <div class="steps__content">
-                                <h3 class="steps__item-title">資料請求・お申し込み</h3>
-                                <p class="steps__item-text">
-                                    専用フォームよりお問い合わせください。サービス詳細資料をお送りします。
-                                </p>
-                            </div>
-                        </li>
+            <div class="steps__inner">
+                <h2 class="c-section-title">
+                    ご利用の流れ
+                    <span class="c-section-title__line"></span>
+                </h2>
 
-                        <li class="steps__item">
-                            <div class="steps__number-wrapper">
-                                <span class="steps__number">2</span>
-                            </div>
-                            <div class="steps__content">
-                                <h3 class="steps__item-title">自社データの読み込み</h3>
-                                <p class="steps__item-text">
-                                    管理画面に自社のホームページURLや、よくある質問（FAQ）のテキストをそのまま貼り付けます。
-                                </p>
-                            </div>
-                        </li>
+                <ul class="steps__list">
 
-                        <li class="steps__item">
-                            <div class="steps__number-wrapper">
+                    <li class="steps__item">
+                        <div class="steps__number-wrapper">
+                            <span class="steps__number">1</span>
+                        </div>
+                        <div class="steps__content">
+                            <h3 class="steps__item-title">資料請求・お申し込み</h3>
+                            <p class="steps__item-text">
+                                専用フォームよりお問い合わせください。サービス詳細資料をお送りします。
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="steps__item">
+                        <div class="steps__number-wrapper">
+                            <span class="steps__number">2</span>
+                        </div>
+                        <div class="steps__content">
+                            <h3 class="steps__item-title">自社データの読み込み</h3>
+                            <p class="steps__item-text">
+                                管理画面に自社のホームページURLや、よくある質問（FAQ）のテキストをそのまま貼り付けます。
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="steps__item">
+                        <div class="steps__number-wrapper">
                                 <span class="steps__number">3</span>
-                            </div>
-                            <div class="steps__content">
-                                <h3 class="steps__item-title">AIの自動学習</h3>
-                                <p class="steps__item-text">
-                                    数分ほどでAIがデータを自動学習し、あなたの会社専用の賢いチャットボットが生成されます。
-                                </p>
-                            </div>
-                        </li>
+                        </div>
+                        <div class="steps__content">
+                            <h3 class="steps__item-title">AIの自動学習</h3>
+                            <p class="steps__item-text">
+                                数分ほどでAIがデータを自動学習し、あなたの会社専用の賢いチャットボットが生成されます。
+                            </p>
+                        </div>
+                    </li>
 
-                        <li class="steps__item">
-                            <div class="steps__number-wrapper">
+                    <li class="steps__item">
+                        <div class="steps__number-wrapper">
                                 <span class="steps__number">4</span>
-                            </div>
-                            <div class="steps__content">
-                                <h3 class="steps__item-title">コードをサイトへ設置</h3>
-                                <p class="steps__item-text">
-                                    管理画面で発行される1行のコードを、自社サイトのHTMLにコピー＆ペーストするだけです。
-                                </p>
-                            </div>
-                        </li>
+                        </div>
+                        <div class="steps__content">
+                            <h3 class="steps__item-title">コードをサイトへ設置</h3>
+                            <p class="steps__item-text">
+                                管理画面で発行される1行のコードを、自社サイトのHTMLにコピー＆ペーストするだけです。
+                            </p>
+                        </div>
+                    </li>
 
-                        <li class="steps__item">
-                            <div class="steps__number-wrapper">
+                    <li class="steps__item">
+                        <div class="steps__number-wrapper">
                                 <span class="steps__number">5</span>
-                            </div>
-                            <div class="steps__content">
-                                <h3 class="steps__item-title">運用開始・効果検証</h3>
-                                <p class="steps__item-text">
-                                    サイトの右下にチャットが出現し、24時間自動応答がスタート。チャットの利用率はいつでも管理画面から確認できます。
+                        </div>
+                        <div class="steps__content">
+                            <h3 class="steps__item-title">運用開始・効果検証</h3>
+                            <p class="steps__item-text">
+                                サイトの右下にチャットが出現し、24時間自動応答がスタート。チャットの利用率はいつでも管理画面から確認できます。
+                            </p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+
+        </section>
+
+        <!--よくあるご質問 ここから-->
+        <section class="faq">
+
+            <div class="faq__inner">
+                <h2 class="c-section-title">
+                    よくある質問
+                    <span class="c-section-title__line"></span>
+                </h2>
+
+                <div class="faq__list">
+
+                    <details class="faq__item js-faq">
+                        <summary class="faq__head">
+                            <span class="faq__icon-q">Q</span>
+                            <h3 class="faq__question">QuickBot.では、どんなことができますか？</h3>
+                            <span class="faq__arrow"></span>
+                        </summary>
+                        <div class="faq__body">
+                            <div class="faq__body-inner">
+                                <p class="faq__answer">
+                                    自社のWEBサイトやマニュアルのURLを読み込ませるだけで、AIがその内容を学習し、ユーザーからの問い合わせに24時間365日、自動で即答するチャットボットを作成できます。
                                 </p>
                             </div>
-                        </li>
+                        </div>
+                    </details>
 
-                    </ul>
+                    <details class="faq__item js-faq">
+                        <summary class="faq__head">
+                            <span class="faq__icon-q">Q</span>
+                            <h3 class="faq__question">AIの学習には専門知識やプログラミングが必要ですか？</h3>
+                            <span class="faq__arrow"></span>
+                        </summary>
+                        <div class="faq__body">
+                            <div class="faq__body-inner">
+                                <p class="faq__answer">
+                                    いいえ、一切不要です。管理画面に学習させたいURLを貼り付けるか、テキストをコピー＆ペーストするだけで設定が完了します。
+                                </p>
+                            </div>
+                        </div>
+                    </details>
+
+                    <details class="faq__item js-faq">
+                        <summary class="faq__head">
+                            <span class="faq__icon-q">Q</span>
+                            <h3 class="faq__question">無料トライアル期間が終わったら勝手に課金されますか？</h3>
+                            <span class="faq__arrow"></span>
+                        </summary>
+                        <div class="faq__body">
+                            <div class="faq__body-inner">
+                                <p class="faq__answer">
+                                    いいえ、自動的に有料プランへ移行することはありません。トライアル終了後も継続してご利用いただく場合のみ、お支払い手続きを行っていただきます。
+                                </p>
+                            </div>
+                        </div>
+                    </details>
+
+                    <details class="faq__item js-faq">
+                        <summary class="faq__head">
+                            <span class="faq__icon-q">Q</span>
+                            <h3 class="faq__question">LINEやSlackなどの外部ツールと連携できますか？</h3>
+                            <span class="faq__arrow"></span>
+                        </summary>
+                        <div class="faq__body">
+                            <div class="faq__body-inner">
+                                <p class="faq__answer">
+                                    はい、可能です。LINE公式アカウント、Slack、Teamsなど主要なコミュニケーションツールと簡単に接続できます。いつものチャット画面から直接顧客の対応や通知の受け取りができるため、新しいツールの操作を覚える必要はありません。
+                                </p>
+                            </div>
+                        </div>
+                    </details>
+
                 </div>
+            </div>
 
-            </section>
+        </section>
 
-            <!--よくあるご質問 ここから-->
-            <section class="faq">
+        <!--お問い合わせフォーム ここから-->
+        <section class="contact">
 
-                <div class="faq__inner">
-                    <h2 class="c-section-title">
-                        よくある質問
-                        <span class="c-section-title__line"></span>
-                    </h2>
+            <div class="contact__inner">
+                <h2 class="c-section-title">
+                    お問い合わせ
+                    <span class="c-section-title__line"></span>
+                </h2>
 
-                    <div class="faq__list">
+                <form action="#" method="POST" class="contact__form">
 
-                        <details class="faq__item js-faq">
-                            <summary class="faq__head">
-                                <span class="faq__icon-q">Q</span>
-                                <h3 class="faq__question">QuickBot.では、どんなことができますか？</h3>
-                                <span class="faq__arrow"></span>
-                            </summary>
-                            <div class="faq__body">
-                                <div class="faq__body-inner">
-                                    <p class="faq__answer">
-                                        自社のWEBサイトやマニュアルのURLを読み込ませるだけで、AIがその内容を学習し、ユーザーからの問い合わせに24時間365日、自動で即答するチャットボットを作成できます。
-                                    </p>
-                                </div>
-                            </div>
-                        </details>
-
-                        <details class="faq__item js-faq">
-                            <summary class="faq__head">
-                                <span class="faq__icon-q">Q</span>
-                                <h3 class="faq__question">AIの学習には専門知識やプログラミングが必要ですか？</h3>
-                                <span class="faq__arrow"></span>
-                            </summary>
-                            <div class="faq__body">
-                                <div class="faq__body-inner">
-                                    <p class="faq__answer">
-                                        いいえ、一切不要です。管理画面に学習させたいURLを貼り付けるか、テキストをコピー＆ペーストするだけで設定が完了します。
-                                    </p>
-                                </div>
-                            </div>
-                        </details>
-
-                        <details class="faq__item js-faq">
-                            <summary class="faq__head">
-                                <span class="faq__icon-q">Q</span>
-                                <h3 class="faq__question">無料トライアル期間が終わったら勝手に課金されますか？</h3>
-                                <span class="faq__arrow"></span>
-                            </summary>
-                            <div class="faq__body">
-                                <div class="faq__body-inner">
-                                    <p class="faq__answer">
-                                        いいえ、自動的に有料プランへ移行することはありません。トライアル終了後も継続してご利用いただく場合のみ、お支払い手続きを行っていただきます。
-                                    </p>
-                                </div>
-                            </div>
-                        </details>
-
-                        <details class="faq__item js-faq">
-                            <summary class="faq__head">
-                                <span class="faq__icon-q">Q</span>
-                                <h3 class="faq__question">LINEやSlackなどの外部ツールと連携できますか？</h3>
-                                <span class="faq__arrow"></span>
-                            </summary>
-                            <div class="faq__body">
-                                <div class="faq__body-inner">
-                                    <p class="faq__answer">
-                                        はい、可能です。LINE公式アカウント、Slack、Teamsなど主要なコミュニケーションツールと簡単に接続できます。いつものチャット画面から直接顧客の対応や通知の受け取りができるため、新しいツールの操作を覚える必要はありません。
-                                    </p>
-                                </div>
-                            </div>
-                        </details>
-
+                    <div class="contact__fields">
+                        <label for="company" class="contact__label">貴社名</label>
+                        <input type="text" id="company" name="company" class="contact__input" placeholder="貴社名を入力してください">
                     </div>
-                </div>
 
-            </section>
+                    <div class="contact__fields">
+                        <label for="name" class="contact__label">担当者名</label>
+                        <input type="text" id="name" name="name" class="contact__input" placeholder="担当者名を入力してください">
+                    </div>
 
-            <!--お問い合わせフォーム ここから-->
-            <section class="contact">
-
-                <div class="contact__inner">
-                    <h2 class="c-section-title">
-                        お問い合わせ
-                        <span class="c-section-title__line"></span>
-                    </h2>
-
-                    <form action="#" method="POST" class="contact__form">
-
-                        <div class="contact__fields">
-                            <label for="company" class="contact__label">貴社名</label>
-                            <input type="text" id="company" name="company" class="contact__input" placeholder="貴社名を入力してください">
+                    <div class="contact__fields">
+                        <div class="contact__label-row">
+                            <label for="tel" class="contact__label">電話番号</label>
+                            <span class="contact__label-note">ハイフンなし</span>
                         </div>
+                        <input type="tel" id="tel" name="tel" class="contact__input" placeholder="電話番号を入力してください">
+                    </div>
 
-                        <div class="contact__fields">
-                            <label for="name" class="contact__label">担当者名</label>
-                            <input type="text" id="name" name="name" class="contact__input" placeholder="担当者名を入力してください">
+                    <div class="contact__fields">
+                        <label for="email" class="contact__label">メールアドレス</label>
+                        <input type="email" id="email" name="email" class="contact__input" placeholder="メールアドレスを入力してください">
+                    </div>
+
+                    <div class="contact__fields">
+                        <label for="purpose" class="contact__label">お問い合わせ内容</label>
+                        <div class="contact__select-wrapper">
+                            <select id="purpose" name="purpose" class="contact__select">
+                                <option value="資料請求">資料請求のご相談</option>
+                                <option value="サービスについてのご質問">サービスについてのご質問</option>
+                                <option value="料金・プランについてのご相談">料金・プランについてのご相談</option>
+                                <option value="無料トライアルについて">無料トライアルについて</option>
+                                <option value="その他">その他</option>
+                            </select>
                         </div>
+                    </div>
 
-                        <div class="contact__fields">
-                            <div class="contact__label-row">
-                                <label for="tel" class="contact__label">電話番号</label>
-                                <span class="contact__label-note">ハイフンなし</span>
-                            </div>
-                            <input type="tel" id="tel" name="tel" class="contact__input" placeholder="電話番号を入力してください">
-                        </div>
+                    <div class="contact__fields">
+                        <label for="message" class="contact__label">詳しいお問い合わせ内容</label>
+                        <textarea id="message" name="message" class="contact__input contact__input--textarea" placeholder="ご質問やご相談がございましたら、自由にご記入ください。"></textarea>
+                    </div>
 
-                        <div class="contact__fields">
-                            <label for="email" class="contact__label">メールアドレス</label>
-                            <input type="email" id="email" name="email" class="contact__input" placeholder="メールアドレスを入力してください">
-                        </div>
+                    <div class="contact__checkbox-wrapper">
+                        <label class="contact__checkbox-label">
+                            <input type="checkbox" name="agree" class="contact__checkbox" required>
+                            <span class="contact__checkbox-text">プライバシーポリシーに同意する</span>
+                        </label>
+                    </div>
 
-                        <div class="contact__fields">
-                            <label for="purpose" class="contact__label">お問い合わせ内容</label>
-                            <div class="contact__select-wrapper">
-                                <select id="purpose" name="purpose" class="contact__select">
-                                    <option value="資料請求">資料請求のご相談</option>
-                                    <option value="サービスについてのご質問">サービスについてのご質問</option>
-                                    <option value="料金・プランについてのご相談">料金・プランについてのご相談</option>
-                                    <option value="無料トライアルについて">無料トライアルについて</option>
-                                    <option value="その他">その他</option>
-                                </select>
-                            </div>
-                        </div>
+                    <div class="contact__submit-wrapper">
+                        <button type="submit" class="contact__btn">送信</button>
+                    </div>
 
-                        <div class="contact__fields">
-                            <label for="message" class="contact__label">詳しいお問い合わせ内容</label>
-                            <textarea id="message" name="message" class="contact__input contact__input--textarea" placeholder="ご質問やご相談がございましたら、自由にご記入ください。"></textarea>
-                        </div>
+                </form>
 
-                        <div class="contact__checkbox-wrapper">
-                            <label class="contact__checkbox-label">
-                                <input type="checkbox" name="agree" class="contact__checkbox" required>
-                                <span class="contact__checkbox-text">プライバシーポリシーに同意する</span>
-                            </label>
-                        </div>
+            </div>
 
-                        <div class="contact__submit-wrapper">
-                            <button type="submit" class="contact__btn">送信</button>
-                        </div>
+        </section>
 
-                    </form>
-
-                </div>
-
-            </section>
-
-        </main>
+    </main>
 
 <?php get_footer(); ?>
