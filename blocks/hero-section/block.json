@@ -1,0 +1,12 @@
+{
+    "name": "acf/hero-section",
+    "title": "ヒーローセクション",
+    "description": "LPのメインビジュアルブロック",
+    "category": "formatting",
+    "icon": "format-image",
+    "apiVersion": 2,
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "hero.php"
+    }
+}

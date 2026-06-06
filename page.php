@@ -3,33 +3,12 @@
 
     <main>
 
-        <!--メインビジュアル　ここから-->
-        <section class="hero">
-
-            <div class="hero__inner">
-                <div class="hero__image">
-                    <img src="./img/hero-person.png" alt="チャットボットを利用するビジネスパーソン">
-                </div>
-
-                <div class="hero__body">
-                    <h2 class="hero__title">
-                        24時間AIが自動回答。<br>
-                        顧客を待たせない、次世代AIチャットボット
-                    </h2>
-
-                    <p class="hero__text">
-                        よくある質問への回答をAIが100%自動化。<br>
-                        カスタマーサポートの負担を減らし、深夜の機会損失を防ぐことで、<br>
-                        顧客満足度とコンバージョン率を同時に高めます。
-                    </p>
-
-                    <div class="hero__cta">
-                        <a href="#" class="hero__btn c-btn">無料で14日間試してみる</a>
-                    </div>
-                </div>
-            </div>
-
-        </section>
+        <?php
+        // 投稿や固定ページの内容を表示するメインループ
+        if ( have_posts() ) : while ( have_posts() ) : the_post();
+            the_content();
+        endwhile; endif;
+        ?>
 
         <!--こんなお悩みありませんか？　ここから-->
         <section class="problem">
@@ -378,7 +357,7 @@
         </section>
 
         <!--お問い合わせフォーム ここから-->
-        <section class="contact">
+        <section id="contact" class="contact">
 
             <div class="contact__inner">
                 <h2 class="c-section-title">

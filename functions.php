@@ -25,3 +25,13 @@ function my_theme_customize_register($wp_customize) {
     ));
 }
 add_action('customize_register', 'my_theme_customize_register');
+
+//ブロックエディタ対応
+add_action( 'init', 'register_acf_blocks' );
+function register_acf_blocks() {
+    $block_path = get_template_directory() . '/blocks/hero-section';
+
+    if ( file_exists( $block_path ) ) {
+        register_block_type( $block_path );
+    }
+}
