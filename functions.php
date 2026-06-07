@@ -1,22 +1,30 @@
 <?php
 
-//CSS・JS読み込み
+function my_theme_setup() {
+    add_theme_support( 'editor-styles' );
+    add_editor_style( 'css/style.css' );
+    add_theme_support( 'align-wide' );
+    add_theme_support( 'editor-layout-dimensions', array(
+        'contentSize' => '840px',
+        'wideSize'    => '1280px',
+    ) );
+}
+add_action( 'after_setup_theme', 'my_theme_setup' );
+
+
 function my_theme_enqueue_scripts() {
-    // CSSの読み込み
     wp_enqueue_style('main-style', get_template_directory_uri() . '/css/style.css', array(), '1.0');
-    
-    // JSの読み込み
     wp_enqueue_script('main-js', get_template_directory_uri() . '/js/main.js', array(), '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_scripts');
 
-//ヘッダー設定
+
+// ヘッダー設定（カスタマイザー）
 function my_theme_customize_register($wp_customize) {
     $wp_customize->add_section('header_settings', array(
         'title' => 'ヘッダー設定',
         'priority' => 30,
     ));
-    // ボタンの文字
     $wp_customize->add_setting('header_btn_text', array('default' => 'お問い合わせ'));
     $wp_customize->add_control('header_btn_text', array(
         'label' => 'ボタンの文字',
@@ -26,8 +34,8 @@ function my_theme_customize_register($wp_customize) {
 }
 add_action('customize_register', 'my_theme_customize_register');
 
-//ブロックエディタ対応
-add_action( 'init', 'register_acf_blocks' );
+
+// ACFカスタムブロックの登録
 function register_acf_blocks() {
     $block_path = get_template_directory() . '/blocks/hero-section';
 
@@ -35,3 +43,4 @@ function register_acf_blocks() {
         register_block_type( $block_path );
     }
 }
+add_action( 'init', 'register_acf_blocks' );

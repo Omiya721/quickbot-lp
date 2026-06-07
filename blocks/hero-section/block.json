@@ -4,7 +4,13 @@
     "description": "LPのメインビジュアルブロック",
     "category": "formatting",
     "icon": "format-image",
-    "apiVersion": 2,
+    "apiVersion": 3,
+    "supports": {
+        "anchor": true,
+        "align": true,       
+        "alignWide": true
+    },
+    "editorStyle": "../../css/style.css", 
     "acf": {
         "mode": "preview",
         "renderTemplate": "hero.php"

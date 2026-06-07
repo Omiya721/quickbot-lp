@@ -9,6 +9,14 @@
         padding-bottom: 60px;
     }
 
+    &--bg-gray {
+        background-color: $color-bg-gray;
+    }
+
+    &--bg-white {
+        background-color: $color-bg-white;
+    }
+
     &__inner {
         max-width: 1280px;
         margin: 0 auto;
@@ -19,8 +27,28 @@
         gap: 40px;
 
         @media (max-width: 1024px) {
-            flex-direction: column;
+            flex-direction: column !important;
             gap: 32px;
+        }
+    }
+
+    &--image-right &__inner {
+        flex-direction: row-reverse;
+    }
+
+    &--image-left &__inner {
+        flex-direction: row; 
+    }
+
+    &--center {
+        display: block;
+        text-align: center;
+    }
+
+    @media (max-width: 1024px) {
+        &--image-right &__inner,
+        &--image-left &__inner {
+            flex-direction: column;
         }
     }
 
