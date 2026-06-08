@@ -5,9 +5,12 @@ $solution_title = get_field('solution_title');
 $solution_img = get_field('solution_image');
 $cta_url = get_field('cta_link');
 $cta_text = get_field('cta_text') ?: '無料で14日間試してみる';
+
+$list_bg = get_field('problem_list_bg') ?: 'is-bg-white';
+$sol_bg = get_field('solution_bg') ?: 'is-bg-gray';
 ?>
 
-<section class="problem">
+<section class="problem <?php echo esc_attr($list_bg); ?>">
     <div class="problem__inner">
         <h2 class="c-section-title">
             <?php echo esc_html($title); ?>
@@ -28,7 +31,7 @@ $cta_text = get_field('cta_text') ?: '無料で14日間試してみる';
         </div>
         <?php endif; ?>
 
-        <div class="problem__solution">
+        <div class="problem__solution <?php echo esc_attr($sol_bg); ?>">
             <h3 class="problem__solution-title"><?php echo nl2br(esc_html($solution_title)); ?></h3>
             <?php if( !empty($solution_img['ID']) ): ?>
                 <div class="problem__solution-img-wrapper">
