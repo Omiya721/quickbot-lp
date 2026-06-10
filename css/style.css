@@ -336,7 +336,6 @@ a {
 }
 
 .faq {
-  background-color: #F5F5F5;
   padding: 80px 0;
   text-align: center;
 }
@@ -371,7 +370,6 @@ a {
   align-items: center;
   cursor: pointer;
   position: relative;
-  -webkit-user-select: none;
   user-select: none;
 }
 @media (max-width: 768px) {
