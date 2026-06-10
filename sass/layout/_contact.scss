@@ -9,6 +9,12 @@
         max-width: 1280px;
         margin: 0 auto;
         padding: 0 20px;
+
+        @media (max-width: 768px) {
+            width: 80%;
+            margin-right: auto;
+            margin-left: auto;
+        }
     }
 
     &__form {
@@ -150,7 +156,8 @@
     }
 
     &__btn {
-        display: inline-block;
+        display: block;
+        margin: 0 auto;
         width: 100%;
         max-width: 300px;
         padding: 16px 0;

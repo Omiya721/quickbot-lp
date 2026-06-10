@@ -8,6 +8,12 @@
         max-width: 1280px;
         margin: 0 auto;
         padding: 0 20px;
+
+        @media (max-width: 768px) {
+            width: 80%;
+            margin-right: auto;
+            margin-left: auto;
+        }
     }
 
     &__list {
@@ -110,10 +116,10 @@
         }
     }
 
-    // 説明文
     &__item-text {
         font-size: 14px;
         line-height: 1.7;
         color: $color-text-sub;
+        word-break: auto-phrase;
     }
 }

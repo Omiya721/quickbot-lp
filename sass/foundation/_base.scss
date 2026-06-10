@@ -14,6 +14,7 @@ $color-accent: #1E3A8A;
 //共通部分ここから
 html {
     scroll-behavior: smooth;
+    width: 100%S;
 }
 
 body {
@@ -22,6 +23,7 @@ body {
     background-color: $color-bg-white;
     line-height: 1.7; 
     -webkit-font-smoothing: antialiased;
+    width: 100%;
 }
 
 img {

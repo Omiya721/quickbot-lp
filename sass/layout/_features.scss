@@ -7,7 +7,13 @@
     &__inner {
         max-width: 1280px;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 0 4%;
+
+        @media (max-width: 768px) {
+            width: 80%;
+            margin-right: auto;
+            margin-left: auto;
+        }
     }
 
     &__list {
@@ -85,6 +91,7 @@
         line-height: 1.7;
         color: #444;
         text-align: left;
+        word-break: auto-phrase;
     }
 
     &__cta {
