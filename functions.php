@@ -19,6 +19,7 @@ function my_theme_enqueue_scripts() {
     wp_enqueue_script('main-js', get_template_directory_uri() . '/js/main.js', array(), '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_scripts');
+add_action('enqueue_block_editor_assets', 'my_theme_enqueue_scripts');
 
 
 //ヘッダー設定（カスタマイザー）
