@@ -7,19 +7,13 @@
 
 $image         = get_field('hero_image');
 $is_image_left = get_field('hero_image_left') ?: false;
-$bg_color      = get_field('hero_bg_color') ?: 'gray';
+$bg_color      = get_field('hero_bg_color') ?: 'is-bg-gray';
 $title         = get_field('hero_title');
 $text          = get_field('hero_text');
 $btn_text      = get_field('hero_btn_text');
 $btn_link      = get_field('hero_btn_link');
 
 $class_name = 'hero';
-
-if ( $bg_color === 'white' ) {
-    $class_name .= ' hero--bg-white';
-} else {
-    $class_name .= ' hero--bg-gray';
-}
 
 if ( ! empty( $block['className'] ) ) {
     $class_name .= ' ' . $block['className'];
@@ -35,7 +29,7 @@ if( empty($image) ) {
 $block_id = ! empty( $block['anchor'] ) ? $block['anchor'] : '';
 ?>
 
-<section class="<?php echo esc_attr( $class_name ); ?>" <?php echo $block_id ? 'id="' . esc_attr( $block_id ) . '"' : ''; ?>>
+<section class="<?php echo esc_attr($bg_color); ?> <?php echo esc_attr( $class_name ); ?>" <?php echo $block_id ? 'id="' . esc_attr( $block_id ) . '"' : ''; ?>>
     <div class="hero__inner">
         
         <?php if ( ! empty( $image ) && is_array( $image ) && ! empty( $image['url'] ) ): ?>

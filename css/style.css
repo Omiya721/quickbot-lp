@@ -103,7 +103,6 @@ a {
 }
 
 .cases {
-  background-color: #ffffff;
   padding: 80px 0 0;
   text-align: center;
 }
@@ -171,7 +170,6 @@ a {
   color: #666666;
 }
 .cases__cta {
-  background-color: #F5F5F5;
   padding: 80px 20px;
   margin: 0 calc(50% - 50vw);
 }
@@ -627,7 +625,6 @@ a {
 }
 
 .hero {
-  background-color: #F5F5F5;
   padding-top: 160px;
 }
 @media (max-width: 1024px) {
@@ -831,7 +828,6 @@ a {
 }
 
 .steps {
-  background-color: #fff;
   padding: 80px 0;
   text-align: center;
 }

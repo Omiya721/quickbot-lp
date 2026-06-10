@@ -1,7 +1,6 @@
 @use "../foundation/base" as *;
 
 .hero {
-    background-color: $color-bg-gray;
     padding-top: 160px;
 
     @media (max-width: 1024px) {

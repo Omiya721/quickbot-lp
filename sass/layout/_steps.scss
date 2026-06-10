@@ -1,7 +1,6 @@
 @use "../foundation/base" as *;
 
 .steps {
-    background-color: #fff;
     padding: 80px 0;
     text-align: center;
 
@@ -39,7 +38,7 @@
 
         &.is-active {
             &::before {
-                transform: scaleY(1); // ➔ 縦の長さを「1（100%）」に戻して伸ばしきる！
+                transform: scaleY(1);
             }
         }
 
