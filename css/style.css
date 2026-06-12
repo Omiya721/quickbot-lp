@@ -1032,6 +1032,7 @@ a {
 @media (max-width: 768px) {
   .c-section-title {
     margin-bottom: 40px;
+    font-size: 20px;
   }
 }
 .c-section-title__line {
