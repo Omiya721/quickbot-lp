@@ -28,11 +28,23 @@ function my_theme_customize_register($wp_customize) {
         'title' => 'ヘッダー設定',
         'priority' => 30,
     ));
+
     $wp_customize->add_setting('header_btn_text', array('default' => 'お問い合わせ'));
     $wp_customize->add_control('header_btn_text', array(
         'label' => 'ボタンの文字',
         'section' => 'header_settings',
         'type' => 'text',
+    ));
+
+    $wp_customize->add_setting( 'header_btn_url', array(
+        'default'   => '#',
+        'sanitize_callback' => 'esc_url_raw', // URL安全用の関数
+    ));
+    $wp_customize->add_control( 'header_btn_url_control', array(
+        'label'    => 'ヘッダーボタンのリンクURL',
+        'section'  => 'header_settings', 
+        'settings' => 'header_btn_url',
+        'type'     => 'url', // 入力欄をURL用に変更
     ));
 }
 add_action('customize_register', 'my_theme_customize_register');
