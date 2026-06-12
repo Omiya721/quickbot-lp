@@ -3,9 +3,9 @@ $title = get_field('problem_title') ?: 'こんなお悩みありませんか？'
 $items = get_field('problem_items');
 $solution_title = get_field('solution_title');
 $solution_img = get_field('solution_image');
-$cta_url = get_field('cta_link');
+$cta_link = get_field('cta_link');
 $cta_text = get_field('cta_text') ?: '無料で14日間試してみる';
-
+$cta_url = is_array($cta_link) ? $cta_link['url'] : $cta_link;
 $list_bg = get_field('problem_list_bg') ?: 'is-bg-white';
 $sol_bg = get_field('solution_bg') ?: 'is-bg-gray';
 ?>

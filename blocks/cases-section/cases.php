@@ -47,9 +47,7 @@ $cta_url = is_array($cta_link) ? $cta_link['url'] : $cta_link;
             <div class="cases__cta <?php echo esc_attr($cta_bg); ?>">
                 <h3 class="cases__cta-title"><?php echo nl2br(esc_html($cta_title)); ?></h3>
                 <div class="cases__cta-btn-wrapper">
-                    <a href="<?php echo esc_url($cta_url); ?>" class="cases__btn c-btn">
-                        <?php echo esc_html($cta_text); ?>
-                    </a>
+                    <a href="<?php echo esc_url($cta_url); ?>" class="cases__btn c-btn"><?php echo esc_html($cta_text); ?></a>
                 </div>
             </div>
         <?php endif; ?>
