@@ -15,12 +15,13 @@
 
             <div class="header__inner">
                 <h1 class="header__logo">
-                    <a href="#" class="header__logo-link">QuickBot.</a>
+                    <a href="<?php echo esc_url(home_url('/')); ?>" class="header__logo-link">QuickBot.</a>
                 </h1>
 
                 <div class="header__info">
-                    <!-- ボタン -->
-                    <a href="#" class="header__btn c-btn"><?php echo get_theme_mod('header_btn_text', 'お問い合わせ'); ?></a>
+                    <a href="<?php echo esc_url(get_theme_mod('header_btn_url', '#contact')); ?>" class="header__btn c-btn">
+                        <?php echo esc_html(get_theme_mod('header_btn_text', 'お問い合わせ')); ?>
+                    </a>
                 </div>
             </div>
 
